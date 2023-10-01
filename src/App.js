@@ -6,6 +6,7 @@ import Navbar from './layout/Navbar';
 import Home from './pages/Home';
 import Register from './forms/Register';
 import RegisterTokenAkceptet from './pages/RegisterTokenAkceptet';
+import AddNewSeason from './forms/AddNewSeason';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/'element={<Home/>}/>
           <Route exact path='/register'element={<Register/>}/>
           <Route exact path='/registry-token-accepted/:registryToken' element={<RegisterTokenAkceptet/>}/>
+          <Route exact path='/add-new-season' element={<AddNewSeason/>}/>
         </Routes>
       </Router>
     </div>
