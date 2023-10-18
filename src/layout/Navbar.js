@@ -23,7 +23,7 @@ export default function Navbar() {
                 <div className='d-flex'>
                     <Link className='btn btn-light me-5' to='/login'>Login</Link>
                     <Link className='btn btn-outline-light me-5' to='/register'>Register</Link>
-                    <Link className='btn btn-outline-light me-5' to='/add-new-season'>Add season</Link>
+                    <Link className='btn btn-outline-light me-5' to='/settings'>Settings</Link>
                 </div>
             </div>
         </nav>
